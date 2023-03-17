@@ -11,7 +11,7 @@ function App() {
       setPhrase("good job")
     } else if (phrase === "CSC3000{Hex_Hex_Hex}") {
       setName("http://tryhackme.com/jr/finalchallengedc");
-      setPhrase("you win")
+      setPhrase("good job")
 
      }
   }
