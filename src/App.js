@@ -1,6 +1,6 @@
 import { useState } from "react";
 function App() {
-  const [name, setName] = useState('tryhackme.com/jr/workshopiyrfmp');
+  const [name, setName] = useState('http://tryhackme.com/jr/workshopiyrfmp');
   const [phrase,setPhrase]=useState("")
   function handleClick(phrase) {
     if (phrase === "CSC3000{r4r_4rch1ve5_th15_t1m3}") {
@@ -36,7 +36,7 @@ function  updatePhrase(event){
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Welcome to the CTF Competion</h2>
 
         <p class="mt-2 text-lg leading-8 text-gray-600">Enter to the folowing link</p>
-        <a class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl" href={name}>{name}</a>
+        <a class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl" href={name} target="_blanc">{name}</a>
         <p class="mt-2 text-lg leading-8 text-gray-600">When you solve it put the flag in the input box to get the next link</p>
 
       </div>
