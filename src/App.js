@@ -36,7 +36,7 @@ function  updatePhrase(event){
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Welcome to the CTF Competion</h2>
 
         <p class="mt-2 text-lg leading-8 text-gray-600">Enter to the folowing link</p>
-        <a class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl" href={name}>{name}</a>
+        <a class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl" href={name} target="_blank">{name}</a>
         <p class="mt-2 text-lg leading-8 text-gray-600">When you solve it put the flag in the input box to get the next link</p>
 
       </div>
