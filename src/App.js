@@ -1,6 +1,6 @@
 import { useState } from "react";
 function App() {
-  const [name, setName] = useState('http://tryhackme.com/jr/workshopiyrf  ');
+  const [name, setName] = useState('tryhackme.com/jr/workshopiyrfmp');
   const [phrase,setPhrase]=useState("")
   function handleClick(phrase) {
     if (phrase === "CSC3000{r4r_4rch1ve5_th15_t1m3}") {
