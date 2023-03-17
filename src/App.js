@@ -4,7 +4,7 @@ function App() {
   const [phrase,setPhrase]=useState("")
   function handleClick(phrase) {
     if (phrase === "CSC3000{r4r_4rch1ve5_th15_t1m3}") {
-      setName('http://tryhackme.com/jr/c4ptur3th3fl4gz9cvht');
+      setName('http://tryhackme.com/jr/c4ptur3th3fl4gz9cvhtln');
       setPhrase("good job")
     } else if (phrase === "CSC3000{e4sy_p3asY}") {
       setName("http://tryhackme.com/jr/steganography7w6d4e");
