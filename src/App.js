@@ -13,7 +13,9 @@ function App() {
       setName("http://tryhackme.com/jr/finalchallengedc");
       setPhrase("good job")
 
-     }
+     }else if(phrase == "CSC3000{abygurl69}"){
+       setName("You won");
+       setPhrase("Hooray");
   }
 function  updatePhrase(event){
   setPhrase(event.target.value)
